@@ -1,0 +1,30 @@
+.vds-stats {
+    background: rgba(10, 10, 10, 0.75);
+    border: 1px solid rgb(255 255 255 / 0.1);
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 64;
+    min-width: 28em;
+    font-size: 11px;
+}
+
+.vds-stats-close {
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.vds-stats-content {
+    padding: 5px;
+}
+
+.vds-stats-content > div > div {
+    display: inline-block;
+    font-weight: 500;
+    padding-right: 0.5em;
+    text-align: right;
+    min-width: 7em;
+}
